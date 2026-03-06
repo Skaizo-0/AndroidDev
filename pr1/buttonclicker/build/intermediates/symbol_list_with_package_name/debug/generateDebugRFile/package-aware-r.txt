@@ -1,0 +1,16 @@
+ru.mirea.mvolobueva.buttonclicker
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnItIsNotMe
+id btnWhoAmI
+id checkBox
+id main
+id tvOut
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Lesson1
+style Theme_Lesson1

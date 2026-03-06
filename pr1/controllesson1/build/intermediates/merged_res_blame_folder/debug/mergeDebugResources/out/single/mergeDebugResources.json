@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/layout_activity_second.xml.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/layout/activity_second.xml"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/layout-land_activity_second.xml.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/layout-land/activity_second.xml"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/layout_activity_main.xml.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ru.mirea.mvolobueva.controllesson1-debug-30:/drawable_ic_launcher_background.xml.flat",
+        "source": "ru.mirea.mvolobueva.controllesson1-main-32:/drawable/ic_launcher_background.xml"
+    }
+]
