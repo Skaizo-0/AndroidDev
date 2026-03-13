@@ -1,0 +1,15 @@
+ru.mirea.mvolobueva.dialog
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnShowDate
+id btnShowDialog
+id btnShowProgress
+id btnShowTime
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Lesson2
+style Theme_Lesson2

@@ -1,0 +1,12 @@
+ru.mirea.mvolobueva.activitylifecycle
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id editText
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Lesson2
+style Theme_Lesson2

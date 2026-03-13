@@ -1,0 +1,15 @@
+ru.mirea.mvolobueva.multiactivity
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnSend
+id editTextName
+id textViewResult
+layout activity_main
+layout activity_second
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_Lesson2
+style Theme_Lesson2
