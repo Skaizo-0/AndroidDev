@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnBrowser
+id btnCall
+id btnMaps
+layout activity_main
+layout fragment_first
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hello_blank_fragment
+style Base.Theme.Lesson3
+style Theme.Lesson3
