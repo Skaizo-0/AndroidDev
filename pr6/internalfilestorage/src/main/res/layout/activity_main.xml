@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите памятную дату и описание"
+            android:minLines="6"
+            android:gravity="top|start" />
+
+        <Button
+            android:id="@+id/buttonSaveFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Сохранить в файл" />
+
+        <Button
+            android:id="@+id/buttonReadFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Прочитать из файла" />
+
+        <TextView
+            android:id="@+id/textViewFileContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Содержимое файла появится здесь"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
