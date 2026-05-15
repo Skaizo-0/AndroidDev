@@ -1,0 +1,177 @@
+package ru.mirea.mvolobueva.osmmaps
+
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Bundle
+import android.util.DisplayMetrics
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
+import androidx.preference.PreferenceManager
+import org.osmdroid.config.Configuration
+import org.osmdroid.util.GeoPoint
+import org.osmdroid.views.MapView
+import org.osmdroid.views.overlay.Marker
+import org.osmdroid.views.overlay.ScaleBarOverlay
+import org.osmdroid.views.overlay.compass.CompassOverlay
+import org.osmdroid.views.overlay.compass.InternalCompassOrientationProvider
+import org.osmdroid.views.overlay.mylocation.GpsMyLocationProvider
+import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var mapView: MapView
+    private var locationNewOverlay: MyLocationNewOverlay? = null
+    private var compassOverlay: CompassOverlay? = null
+
+    private val requestPermissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) {
+            setupUserLocation()
+        }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        Configuration.getInstance().load(
+            applicationContext,
+            PreferenceManager.getDefaultSharedPreferences(applicationContext)
+        )
+
+        setContentView(R.layout.activity_main)
+        mapView = findViewById(R.id.mapView)
+
+        setupMap()
+        setupCompass()
+        setupScaleBar()
+        addInterestingMarkers()
+        checkLocationPermissions()
+    }
+
+    private fun setupMap() {
+        mapView.setZoomRounding(true)
+        mapView.setMultiTouchControls(true)
+
+        val mapController = mapView.controller
+        mapController.setZoom(15.0)
+
+        val startPoint = GeoPoint(55.794229, 37.700772)
+        mapController.setCenter(startPoint)
+    }
+
+    private fun checkLocationPermissions() {
+        val fineLocationGranted = ContextCompat.checkSelfPermission(
+            this,
+            Manifest.permission.ACCESS_FINE_LOCATION
+        ) == PackageManager.PERMISSION_GRANTED
+
+        val coarseLocationGranted = ContextCompat.checkSelfPermission(
+            this,
+            Manifest.permission.ACCESS_COARSE_LOCATION
+        ) == PackageManager.PERMISSION_GRANTED
+
+        if (fineLocationGranted || coarseLocationGranted) {
+            setupUserLocation()
+        } else {
+            requestPermissionLauncher.launch(
+                arrayOf(
+                    Manifest.permission.ACCESS_FINE_LOCATION,
+                    Manifest.permission.ACCESS_COARSE_LOCATION
+                )
+            )
+        }
+    }
+
+    private fun setupUserLocation() {
+        if (locationNewOverlay != null) return
+
+        locationNewOverlay = MyLocationNewOverlay(
+            GpsMyLocationProvider(applicationContext),
+            mapView
+        )
+        locationNewOverlay?.enableMyLocation()
+        mapView.overlays.add(locationNewOverlay)
+    }
+
+    private fun setupCompass() {
+        compassOverlay = CompassOverlay(
+            applicationContext,
+            InternalCompassOrientationProvider(applicationContext),
+            mapView
+        )
+        compassOverlay?.enableCompass()
+        mapView.overlays.add(compassOverlay)
+    }
+
+    private fun setupScaleBar() {
+        val dm: DisplayMetrics = resources.displayMetrics
+        val scaleBarOverlay = ScaleBarOverlay(mapView)
+        scaleBarOverlay.setCentred(true)
+        scaleBarOverlay.setScaleBarOffset(dm.widthPixels / 2, 10)
+        mapView.overlays.add(scaleBarOverlay)
+    }
+
+    private fun addInterestingMarkers() {
+        addMarker(
+            GeoPoint(55.794229, 37.700772),
+            "РТУ МИРЭА",
+            "Учебный корпус и интересное место для учебы"
+        )
+
+        addMarker(
+            GeoPoint(55.751244, 37.618423),
+            "Красная площадь",
+            "Историческое место в центре Москвы"
+        )
+
+        addMarker(
+            GeoPoint(55.760186, 37.618711),
+            "Большой театр",
+            "Известный театр и достопримечательность"
+        )
+    }
+
+    private fun addMarker(point: GeoPoint, title: String, description: String) {
+        val marker = Marker(mapView)
+        marker.position = point
+        marker.title = title
+        marker.subDescription = description
+        marker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
+
+        marker.icon = ResourcesCompat.getDrawable(
+            resources,
+            org.osmdroid.library.R.drawable.osm_ic_follow_me_on,
+            null
+        )
+
+        marker.setOnMarkerClickListener { selectedMarker, _ ->
+            Toast.makeText(
+                applicationContext,
+                "${selectedMarker.title}\n${selectedMarker.subDescription}",
+                Toast.LENGTH_LONG
+            ).show()
+            true
+        }
+
+        mapView.overlays.add(marker)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Configuration.getInstance().load(
+            applicationContext,
+            PreferenceManager.getDefaultSharedPreferences(applicationContext)
+        )
+        mapView.onResume()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Configuration.getInstance().save(
+            applicationContext,
+            PreferenceManager.getDefaultSharedPreferences(applicationContext)
+        )
+        mapView.onPause()
+    }
+}
