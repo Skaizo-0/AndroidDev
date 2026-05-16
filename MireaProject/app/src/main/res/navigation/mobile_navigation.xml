@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_transform">
+
+    <fragment
+        android:id="@+id/nav_transform"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.transform.TransformFragment"
+        android:label="@string/menu_transform"
+        tools:layout="@layout/fragment_transform" />
+
+    <fragment
+        android:id="@+id/nav_reflow"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.reflow.ReflowFragment"
+        android:label="@string/menu_reflow"
+        tools:layout="@layout/fragment_reflow" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.mvolobueva.mireaproject.DataFragment"
+        android:label="Информация"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.webview.WebViewFragment"
+        android:label="Браузер"
+        tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.webview.WebViewFragment"
+        android:label="Фоновая работа"
+        tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.SensorFragment"
+        android:label="Датчик положения"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.CameraFragment"
+        android:label="Фото-заметка"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.AudioFragment"
+        android:label="Голосовая заметка"
+        tools:layout="@layout/fragment_audio" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_files"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.FilesFragment"
+        android:label="Работа с файлами"
+        tools:layout="@layout/fragment_files" />
+
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.NetworkFragment"
+        android:label="Сетевые данные"
+        tools:layout="@layout/fragment_network" />
+
+    <fragment
+        android:id="@+id/nav_places"
+        android:name="ru.mirea.mvolobueva.mireaproject.ui.PlacesFragment"
+        android:label="Заведения"
+        tools:layout="@layout/fragment_places" />
+</navigation>
