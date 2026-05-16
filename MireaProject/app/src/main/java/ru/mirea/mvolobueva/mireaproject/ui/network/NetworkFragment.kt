@@ -16,6 +16,20 @@ import ru.mirea.mvolobueva.mireaproject.ui.network.IpApiService
 import ru.mirea.mvolobueva.mireaproject.ui.network.IpInfoResponse
 import ru.mirea.mvolobueva.mireaproject.ui.network.WeatherApiService
 import ru.mirea.mvolobueva.mireaproject.ui.network.WeatherResponse
+/*
+
+КРАТКОЕ ОПИСАНИЕ:
+Фрагмент для получения и отображения сетевой информации IP-адрес, геолокация,
+информация о провайдере, текущая погода по координатам. Использует Retrofit
+для HTTP-запросов к внешним API.
+
+
+Этот фрагмент демонстрирует работу с сетевыми запросами в Android с помощью
+библиотеки Retrofit. Он отправляет запросы к двум различным API:
+1. ip-api.com - для получения информации об IP-адресе (город, страна, провайдер, координаты)
+2. open-meteo.com - для получения текущей погоды по координатам
+
+*/
 
 class NetworkFragment : Fragment(R.layout.fragment_network) {
 
@@ -40,7 +54,7 @@ class NetworkFragment : Fragment(R.layout.fragment_network) {
         textViewCoordinates = view.findViewById(R.id.textViewCoordinates)
         textViewWeather = view.findViewById(R.id.textViewWeather)
         buttonLoadNetworkInfo = view.findViewById(R.id.buttonLoadNetworkInfo)
-
+        // НАСТРОЙКА RETROFIT ДЛЯ IP-API
         val ipRetrofit = Retrofit.Builder()
             .baseUrl("http://ip-api.com/")
             .addConverterFactory(GsonConverterFactory.create())
@@ -66,7 +80,15 @@ class NetworkFragment : Fragment(R.layout.fragment_network) {
         textViewIsp.text = "Провайдер: загружается..."
         textViewCoordinates.text = "Координаты: загружаются..."
         textViewWeather.text = "Погода: загружается..."
+        // ЗАПРОС К IP-API
+        /*
+       ipApiService.getIpInfo() - создает Call объект для запроса
+       enqueue() - выполняет запрос АСИНХРОННО (в фоновом потоке)
 
+       Callback - интерфейс с двумя методами:
+       - onResponse(): вызывается при успешном получении HTTP-ответа
+       - onFailure(): вызывается при ошибке сети (нет интернета, таймаут и т.д.)
+       */
         ipApiService.getIpInfo().enqueue(object : Callback<IpInfoResponse> {
             override fun onResponse(call: Call<IpInfoResponse>, response: Response<IpInfoResponse>) {
                 if (response.isSuccessful) {

@@ -15,7 +15,23 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import ru.mirea.mvolobueva.mireaproject.R
 import java.io.File
+/*
 
+КРАТКОЕ ОПИСАНИЕ:
+Фрагмент для записи и воспроизведения аудио с использованием MediaRecorder и MediaPlayer.
+Поддерживает разрешения на микрофон для Android 6.0+ (API 23+) и автоматически
+останавливает запись/воспроизведение при уходе с экрана.
+
+
+ОСНОВНЫЕ КОМПОНЕНТЫ:
+- MediaRecorder: Класс для записи аудио с микрофона
+- MediaPlayer: Класс для воспроизведения аудио из файла
+- ActivityResultContracts.RequestPermission: Современный API для запроса разрешений
+- File: Работа с файловой системой (сохранение аудиофайла)
+- Button: Управление записью и воспроизведением
+- TextView: Отображение текущего статуса
+
+*/
 class AudioFragment : Fragment(R.layout.fragment_audio) {
 
     private lateinit var textViewStatus: TextView
@@ -30,7 +46,10 @@ class AudioFragment : Fragment(R.layout.fragment_audio) {
     private var isPermissionGranted = false
 
     private lateinit var audioFilePath: String
+    // ЗАПРОС РАЗРЕШЕНИЙ
 
+    //    registerForActivityResult - регистрирует колбэк для запроса разрешения
+    //    ActivityResultContracts.RequestPermission() - контракт для запроса одного разрешения
     private val requestPermissionLauncher =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
             isPermissionGranted = granted
@@ -99,7 +118,7 @@ class AudioFragment : Fragment(R.layout.fragment_audio) {
             } else {
                 MediaRecorder()
             }
-
+// Настраиваем MediaRecorder
             recorder?.apply {
                 setAudioSource(MediaRecorder.AudioSource.MIC)
                 setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)

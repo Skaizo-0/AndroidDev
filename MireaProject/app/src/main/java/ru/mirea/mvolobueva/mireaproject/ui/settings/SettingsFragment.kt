@@ -8,7 +8,13 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import ru.mirea.mvolobueva.mireaproject.databinding.FragmentSettingsBinding
+/*
 
+КРАТКОЕ ОПИСАНИЕ:
+Фрагмент настроек приложения Отображает текст, управляемый через ViewModel,
+и служит основой для добавления различных настроек приложения.
+
+*/
 class SettingsFragment : Fragment() {
 
     private var _binding: FragmentSettingsBinding? = null

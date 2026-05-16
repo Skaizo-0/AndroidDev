@@ -9,6 +9,16 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import ru.mirea.mvolobueva.mireaproject.databinding.FragmentSlideshowBinding
 
+/*
+
+КРАТКОЕ ОПИСАНИЕ:
+Фрагмент слайд-шоу/галереи является каркасом для будущего
+функционала отображения галереи изображений или слайд-шоу.
+
+
+*/
+
+
 class SlideshowFragment : Fragment() {
 
     private var _binding: FragmentSlideshowBinding? = null

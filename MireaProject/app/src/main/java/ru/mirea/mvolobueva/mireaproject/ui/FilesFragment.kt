@@ -13,14 +13,19 @@ import ru.mirea.mvolobueva.mireaproject.R
 import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.io.IOException
-
+/*
+КРАТКОЕ ОПИСАНИЕ:
+Фрагмент для работы с файлами: позволяет создавать, сохранять и читать текстовые заметки.
+Использует внутреннее хранилище приложения для сохранения данных. Реализует CRUD операции
+(Create, Read) над текстовыми файлами.
+*/
 class FilesFragment : Fragment(R.layout.fragment_files) {
 
     private lateinit var textViewNotes: TextView
     private lateinit var fabAddNote: FloatingActionButton
 
     private val fileName = "notes.txt"
-
+    // onViewCreated - СОЗДАНИЕ UI И ЗАГРУЗКА ДАННЫХ
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -33,7 +38,7 @@ class FilesFragment : Fragment(R.layout.fragment_files) {
             showAddNoteDialog()
         }
     }
-
+    // showAddNoteDialog  ДИАЛОГ ДОБАВЛЕНИЯ НОВОЙ ЗАМЕТКИ
     private fun showAddNoteDialog() {
         val editText = EditText(requireContext())
         editText.hint = "Введите новую заметку"
@@ -54,7 +59,7 @@ class FilesFragment : Fragment(R.layout.fragment_files) {
             .setNegativeButton("Отмена", null)
             .show()
     }
-
+    // saveNoteToFile - СОХРАНЕНИЕ ЗАМЕТКИ В ФАЙЛ
     private fun saveNoteToFile(note: String) {
         try {
             val outputStream: FileOutputStream =
@@ -69,7 +74,7 @@ class FilesFragment : Fragment(R.layout.fragment_files) {
             Toast.makeText(requireContext(), "Ошибка записи файла", Toast.LENGTH_SHORT).show()
         }
     }
-
+    // loadNotesFromFile  ЗАГРУЗКА ЗАМЕТОК ИЗ ФАЙЛА
     private fun loadNotesFromFile() {
         var fileInputStream: FileInputStream? = null
 

@@ -7,7 +7,29 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+/*
 
+КРАТКОЕ ОПИСАНИЕ:
+Экран входа и регистрации пользователя с использованием Firebase Authentication.
+Позволяет пользователю войти в существующий аккаунт или создать новый.
+
+ПОДРОБНОЕ ОПИСАНИЕ:
+Этот файл реализует активность для аутентификации пользователя через Firebase.
+Он предоставляет два основных действия:
+1. Вход (Sign In) - для существующих пользователей
+2. Регистрация (Create Account) - для новых пользователей
+
+После успешной аутентификации пользователь автоматически перенаправляется
+на главный экран (MainActivity). Если пользователь уже был авторизован,
+он попадает на главный экран сразу при запуске приложения.
+
+ОСНОВНЫЕ КОМПОНЕНТЫ:
+- FirebaseAuth: Основной класс Firebase для работы с аутентификацией
+- EditText: Поля ввода email и пароля
+- Button: Кнопки для входа и регистрации
+- Toast: Всплывающие уведомления о результате операций
+
+*/
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var mAuth: FirebaseAuth
@@ -27,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
         editTextPassword = findViewById(R.id.editTextPassword)
         buttonSignIn = findViewById(R.id.buttonSignIn)
         buttonCreateAccount = findViewById(R.id.buttonCreateAccount)
-
+// НАСТРОЙКА ОБРАБОТЧИКОВ СОБЫТИЙ
         buttonSignIn.setOnClickListener {
             signIn()
         }
@@ -36,7 +58,7 @@ class LoginActivity : AppCompatActivity() {
             createAccount()
         }
     }
-
+    // onStart - ПРОВЕРКА АВТОРИЗАЦИИ ПРИ ЗАПУСКЕ
     override fun onStart() {
         super.onStart()
 
@@ -54,8 +76,10 @@ class LoginActivity : AppCompatActivity() {
             Toast.makeText(this, "Введите email и пароль", Toast.LENGTH_SHORT).show()
             return
         }
-
+//Отправляем запрос в Firebase на создание нового пользователя
+        //        createUserWithEmailAndPassword() - асинхронный метод
         mAuth.createUserWithEmailAndPassword(email, password)
+
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(this, "Аккаунт создан", Toast.LENGTH_SHORT).show()
@@ -69,7 +93,7 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
     }
-
+    // signIn - ВХОД В СУЩЕСТВУЮЩИЙ АККАУНТ
     private fun signIn() {
         val email = editTextEmail.text.toString().trim()
         val password = editTextPassword.text.toString().trim()
@@ -78,7 +102,7 @@ class LoginActivity : AppCompatActivity() {
             Toast.makeText(this, "Введите email и пароль", Toast.LENGTH_SHORT).show()
             return
         }
-
+//Отправляем запрос в Firebase на аутентификацию пользователя
         mAuth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
@@ -93,7 +117,7 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
     }
-
+    // openMainScreen - ПЕРЕХОД НА ГЛАВНЫЙ ЭКРАН
     private fun openMainScreen() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)

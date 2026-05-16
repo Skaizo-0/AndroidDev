@@ -20,7 +20,16 @@ import org.osmdroid.views.overlay.compass.InternalCompassOrientationProvider
 import org.osmdroid.views.overlay.mylocation.GpsMyLocationProvider
 import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay
 import ru.mirea.mvolobueva.mireaproject.R
-
+/*
+КРАТКОЕ ОПИСАНИЕ:
+Фрагмент для отображения карты с использованием библиотеки osmdroid (OpenStreetMap).
+Показывает карту Москвы с отмеченными достопримечательностями, поддерживает:
+- Масштабирование и перемещение по карте
+- Определение местоположения пользователя (GPS)
+- Отображение компаса
+- Масштабную линейку
+- Маркеры с информацией о местах
+*/
 class PlacesFragment : Fragment(R.layout.fragment_places) {
 
     private lateinit var mapView: MapView
@@ -31,7 +40,7 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
         registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) {
             setupUserLocation()
         }
-
+    // onCreate  НАСТРОЙКА OSMDRoid
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Configuration.getInstance().load(
@@ -39,10 +48,10 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
             PreferenceManager.getDefaultSharedPreferences(requireContext().applicationContext)
         )
     }
-
+    // onViewCreated - СОЗДАНИЕ UI И НАСТРОЙКА КАРТЫ
     override fun onViewCreated(view: android.view.View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        // находим MapView из layout файла
         mapView = view.findViewById(R.id.mapViewPlaces)
 
         setupMap()
@@ -51,7 +60,7 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
         addPlacesMarkers()
         checkLocationPermissions()
     }
-
+    //setupMap  БАЗОВАЯ НАСТРОЙКА КАРТЫ
     private fun setupMap() {
         mapView.setZoomRounding(true)
         mapView.setMultiTouchControls(true)
@@ -85,18 +94,19 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
             )
         }
     }
-
+    // setupUserLocation  ОТОБРАЖЕНИЕ ТЕКУЩЕГО МЕСТОПОЛОЖЕНИЯ
     private fun setupUserLocation() {
         if (locationOverlay != null) return
 
         locationOverlay = MyLocationNewOverlay(
+            // GpsMyLocationProvider  получает координаты через GPS
             GpsMyLocationProvider(requireContext().applicationContext),
             mapView
         )
         locationOverlay?.enableMyLocation()
         mapView.overlays.add(locationOverlay)
     }
-
+    // setupCompass  НАСТРОЙКА КОМПАСА
     private fun setupCompass() {
         compassOverlay = CompassOverlay(
             requireContext().applicationContext,
@@ -106,7 +116,7 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
         compassOverlay?.enableCompass()
         mapView.overlays.add(compassOverlay)
     }
-
+ //   setupScaleBar  НАСТРОЙКА МАСШТАБНОЙ ЛИНЕЙКИ
     private fun setupScaleBar() {
         val dm: DisplayMetrics = resources.displayMetrics
         val scaleBarOverlay = ScaleBarOverlay(mapView)
@@ -114,6 +124,7 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
         scaleBarOverlay.setScaleBarOffset(dm.widthPixels / 2, 10)
         mapView.overlays.add(scaleBarOverlay)
     }
+    // addPlacesMarkers  ДОБАВЛЕНИЕ МАРКЕРОВ С ДОСТОПРИМЕЧАТЕЛЬНОСТЯМИ
 
     private fun addPlacesMarkers() {
         addPlaceMarker(
@@ -144,7 +155,7 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
             "Популярное место для прогулок и отдыха"
         )
     }
-
+    // addPlaceMarker - СОЗДАНИЕ ОТДЕЛЬНОГО МАРКЕРА
     private fun addPlaceMarker(
         point: GeoPoint,
         title: String,
@@ -162,7 +173,7 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
             org.osmdroid.library.R.drawable.osm_ic_follow_me_on,
             null
         )
-
+// Настройка обработчика нажатия на маркер
         marker.setOnMarkerClickListener { selectedMarker, _ ->
             Toast.makeText(
                 requireContext(),
@@ -174,9 +185,10 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
 
         mapView.overlays.add(marker)
     }
-
+    // onResume  ВОЗОБНОВЛЕНИЕ РАБОТЫ КАРТЫ
     override fun onResume() {
         super.onResume()
+        // Перезагружаем конфигурацию
         Configuration.getInstance().load(
             requireContext().applicationContext,
             PreferenceManager.getDefaultSharedPreferences(requireContext().applicationContext)

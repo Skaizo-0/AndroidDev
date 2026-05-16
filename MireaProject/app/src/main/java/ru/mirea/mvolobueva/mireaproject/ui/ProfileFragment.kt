@@ -13,7 +13,16 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import ru.mirea.mvolobueva.mireaproject.LoginActivity
 import ru.mirea.mvolobueva.mireaproject.R
-
+/*
+КРАТКОЕ ОПИСАНИЕ:
+Фрагмент профиля пользователя, который объединяет локальное хранение данных (SharedPreferences)
+и Firebase Authentication. Позволяет:
+- Сохранять локальный профиль (ФИО, группа, номер телефона, любимый фильм)
+- Просматривать информацию о Firebase аккаунте (email, подтверждение почты)
+- Отправлять письмо для подтверждения email
+- Обновлять статус подтверждения почты
+- Выходить из аккаунта
+*/
 class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
     private lateinit var editTextFullName: EditText
@@ -29,7 +38,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     private lateinit var buttonSignOut: Button
 
     private lateinit var mAuth: FirebaseAuth
-
+    // onViewCreated - СОЗДАНИЕ UI И НАСТРОЙКА ОБРАБОТЧИКОВ
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -38,7 +47,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         editTextNumber = view.findViewById(R.id.editTextNumber)
         editTextFavoriteFilm = view.findViewById(R.id.editTextFavoriteFilm)
         buttonSaveProfile = view.findViewById(R.id.buttonSaveProfile)
-
+        // Инициализация UI компонентов для Firebase профиля
         textViewEmail = view.findViewById(R.id.textViewEmail)
         textViewVerifyStatus = view.findViewById(R.id.textViewVerifyStatus)
         buttonSendVerification = view.findViewById(R.id.buttonSendVerification)
@@ -49,7 +58,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
         loadProfile()
         updateFirebaseUserInfo(mAuth.currentUser)
-
+// НАСТРОЙКА ОБРАБОТЧИКОВ НАЖАТИЙ
         buttonSaveProfile.setOnClickListener {
             saveProfile()
         }
@@ -66,18 +75,21 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
             signOut()
         }
     }
-
+    // onResume  ОБНОВЛЕНИЕ СТАТУСА ПРИ ВОЗВРАЩЕНИИ
     override fun onResume() {
         super.onResume()
         reloadUser(false)
     }
-
+    // saveProfile СОХРАНЕНИЕ ЛОКАЛЬНОГО ПРОФИЛЯ
     private fun saveProfile() {
+        // Получаем доступ к SharedPreferences с именем "profile_settings"
+        // MODE_PRIVATE  только это приложение может читать/писать
         val preferences = requireActivity().getSharedPreferences(
             "profile_settings",
             Context.MODE_PRIVATE
         )
-
+        // Сохраняем данные в формате ключ-значение
+        // apply() - асинхронное сохранение (не блокирует UI поток)
         preferences.edit()
             .putString("FULL_NAME", editTextFullName.text.toString())
             .putString("GROUP", editTextGroup.text.toString())
@@ -87,7 +99,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
         Toast.makeText(requireContext(), "Профиль сохранён", Toast.LENGTH_SHORT).show()
     }
-
+    // loadProfile  ЗАГРУЗКА ЛОКАЛЬНОГО ПРОФИЛЯ
     private fun loadProfile() {
         val preferences = requireActivity().getSharedPreferences(
             "profile_settings",
@@ -99,7 +111,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         editTextNumber.setText(preferences.getString("NUMBER", ""))
         editTextFavoriteFilm.setText(preferences.getString("FAVORITE_FILM", ""))
     }
-
+    // updateFirebaseUserInfo  ОТОБРАЖЕНИЕ ИНФОРМАЦИИ О FIREBASE ПОЛЬЗОВАТЕЛЕ
     private fun updateFirebaseUserInfo(user: FirebaseUser?) {
         if (user != null) {
             textViewEmail.text = "Email: ${user.email ?: "--"}"
@@ -121,7 +133,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
             buttonSignOut.isEnabled = false
         }
     }
-
+    // sendVerificationEmail  ОТПРАВКА ПИСЬМА ДЛЯ ПОДТВЕРЖДЕНИЯ
     private fun sendVerificationEmail() {
         val user = mAuth.currentUser
 
@@ -131,7 +143,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         }
 
         buttonSendVerification.isEnabled = false
-
+// Отправляем письмо для подтверждения
         user.sendEmailVerification()
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
@@ -150,7 +162,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                 }
             }
     }
-
+  //  reloadUser  ОБНОВЛЕНИЕ СТАТУСА ПОЛЬЗОВАТЕЛЯ
     private fun reloadUser(showToast: Boolean) {
         val user = mAuth.currentUser
 
@@ -160,7 +172,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         }
 
         buttonReloadStatus.isEnabled = false
-
+      // Перезагружаем данные пользователя из Firebase
         user.reload().addOnCompleteListener { task ->
             buttonReloadStatus.isEnabled = true
 
@@ -193,7 +205,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
     private fun signOut() {
         mAuth.signOut()
-
+// Создаем Intent для перехода на экран логина
         val intent = Intent(requireContext(), LoginActivity::class.java)
         startActivity(intent)
         requireActivity().finish()
