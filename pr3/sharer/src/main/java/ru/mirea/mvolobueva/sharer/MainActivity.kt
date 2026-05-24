@@ -1,0 +1,25 @@
+package ru.mirea.mvolobueva.sharer
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val btnShare = findViewById<Button>(R.id.btnShare)
+
+        btnShare.setOnClickListener {
+            val intent = Intent(Intent.ACTION_SEND)
+
+            intent.type = "*/*"
+
+            intent.putExtra(Intent.EXTRA_TEXT, "Mirea")
+
+            startActivity(Intent.createChooser(intent, "Выбор за вами!"))
+        }
+    }
+}

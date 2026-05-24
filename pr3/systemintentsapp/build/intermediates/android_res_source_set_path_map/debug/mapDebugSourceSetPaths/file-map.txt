@@ -30,10 +30,10 @@ ru.mirea.mvolobueva.systemintentsapp-lifecycle-viewmodel-savedstate-2.6.2-28 C:\
 ru.mirea.mvolobueva.systemintentsapp-lifecycle-runtime-2.6.2-29 C:\Users\Admin\.gradle\caches\9.2.1\transforms\f066f56cbb71c6674359430c10764e2a\workspace\transformed\lifecycle-runtime-2.6.2\res
 ru.mirea.mvolobueva.systemintentsapp-core-viewtree-1.0.0-30 C:\Users\Admin\.gradle\caches\9.2.1\transforms\f17460eeef961df3ac412d313325c4bf\workspace\transformed\core-viewtree-1.0.0\res
 ru.mirea.mvolobueva.systemintentsapp-savedstate-1.2.1-31 C:\Users\Admin\.gradle\caches\9.2.1\transforms\fe03dc21692b7e12ca0bdc7d41d3242d\workspace\transformed\savedstate-1.2.1\res
-ru.mirea.mvolobueva.systemintentsapp-pngs-32 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson3\systemintentsapp\build\generated\res\pngs\debug
-ru.mirea.mvolobueva.systemintentsapp-updated_navigation_xml-33 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson3\systemintentsapp\build\generated\updated_navigation_xml\debug
-ru.mirea.mvolobueva.systemintentsapp-packageDebugResources-34 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson3\systemintentsapp\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ru.mirea.mvolobueva.systemintentsapp-packageDebugResources-35 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson3\systemintentsapp\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ru.mirea.mvolobueva.systemintentsapp-debug-36 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson3\systemintentsapp\build\intermediates\merged_res\debug\mergeDebugResources
-ru.mirea.mvolobueva.systemintentsapp-debug-37 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson3\systemintentsapp\src\debug\res
-ru.mirea.mvolobueva.systemintentsapp-main-38 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson3\systemintentsapp\src\main\res
+ru.mirea.mvolobueva.systemintentsapp-pngs-32 D:\AndroidDev\pr3\systemintentsapp\build\generated\res\pngs\debug
+ru.mirea.mvolobueva.systemintentsapp-updated_navigation_xml-33 D:\AndroidDev\pr3\systemintentsapp\build\generated\updated_navigation_xml\debug
+ru.mirea.mvolobueva.systemintentsapp-packageDebugResources-34 D:\AndroidDev\pr3\systemintentsapp\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.mvolobueva.systemintentsapp-packageDebugResources-35 D:\AndroidDev\pr3\systemintentsapp\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.mvolobueva.systemintentsapp-debug-36 D:\AndroidDev\pr3\systemintentsapp\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.mvolobueva.systemintentsapp-debug-37 D:\AndroidDev\pr3\systemintentsapp\src\debug\res
+ru.mirea.mvolobueva.systemintentsapp-main-38 D:\AndroidDev\pr3\systemintentsapp\src\main\res

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "ru.mirea.mvolobueva.notificationapp-mergeDebugResources-33:/values-night-v8/values-night-v8.xml",
+            "outputFile": "ru.mirea.mvolobueva.notificationapp-mergeDebugResources-34:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\820dd5af48c7dca48d44213c6b6076b6\\workspace\\transformed\\material-1.13.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\notificationapp\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\AndroidDev\\pr2\\notificationapp\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

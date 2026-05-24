@@ -114,7 +114,7 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\controllesson1\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\AndroidDev\\pr1\\controllesson1\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -167,23 +167,6 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\controllesson1\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "51",
-                        "endOffsets": "63"
-                    },
-                    "to": {
-                        "startLines": "1967",
-                        "startColumns": "4",
-                        "startOffsets": "130324",
-                        "endColumns": "51",
-                        "endOffsets": "130371"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\87e5dcaad33d4b9177bc057924c3f74e\\workspace\\transformed\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -198,6 +181,25 @@
                         "startOffsets": "119930,119970,121102,121326,121381,122877,122931,122983,123032,123093",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "119965,120012,121140,121376,121423,122926,122978,123027,123088,123138"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidDev\\pr1\\controllesson1\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,322",
+                        "endLines": "5,7",
+                        "endColumns": "12,62",
+                        "endOffsets": "316,380"
+                    },
+                    "to": {
+                        "startLines": "2466,6380",
+                        "startColumns": "4,4",
+                        "startOffsets": "173129,446250",
+                        "endLines": "2469,6380",
+                        "endColumns": "12,61",
+                        "endOffsets": "173239,446307"
                     }
                 },
                 {
@@ -292,22 +294,20 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\controllesson1\\src\\main\\res\\values\\themes.xml",
+                    "source": "D:\\AndroidDev\\pr1\\controllesson1\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,322",
-                        "endLines": "5,7",
-                        "endColumns": "12,62",
-                        "endOffsets": "316,380"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
                     },
                     "to": {
-                        "startLines": "2466,6380",
-                        "startColumns": "4,4",
-                        "startOffsets": "173129,446250",
-                        "endLines": "2469,6380",
-                        "endColumns": "12,61",
-                        "endOffsets": "173239,446307"
+                        "startLines": "1967",
+                        "startColumns": "4",
+                        "startOffsets": "130324",
+                        "endColumns": "51",
+                        "endOffsets": "130371"
                     }
                 },
                 {

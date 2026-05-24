@@ -112,6 +112,23 @@
                     }
                 },
                 {
+                    "source": "D:\\AndroidDev\\pr3\\simplefragmentapp\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,41",
+                        "endOffsets": "92,134"
+                    },
+                    "to": {
+                        "startLines": "716,1183",
+                        "startColumns": "4,4",
+                        "startOffsets": "37800,70370",
+                        "endColumns": "41,41",
+                        "endOffsets": "37837,70407"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\416d14339b57d24fb14a67e65a423930\\workspace\\transformed\\fragment-1.5.4\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -128,6 +145,25 @@
                         "endLines": "2256,2290,2334,12891,12895",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "152242,154029,156314,830956,831105"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidDev\\pr3\\simplefragmentapp\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,322",
+                        "endLines": "5,7",
+                        "endColumns": "12,62",
+                        "endOffsets": "316,380"
+                    },
+                    "to": {
+                        "startLines": "2937,7415",
+                        "startColumns": "4,4",
+                        "startOffsets": "206744,526705",
+                        "endLines": "2940,7415",
+                        "endColumns": "12,61",
+                        "endOffsets": "206854,526762"
                     }
                 },
                 {
@@ -294,23 +330,6 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson3\\simplefragmentapp\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,41",
-                        "endOffsets": "92,134"
-                    },
-                    "to": {
-                        "startLines": "716,1183",
-                        "startColumns": "4,4",
-                        "startOffsets": "37800,70370",
-                        "endColumns": "41,41",
-                        "endOffsets": "37837,70407"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\9b845aaa0baca9143007397d28342b3e\\workspace\\transformed\\activity-1.12.4\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -328,7 +347,7 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson3\\simplefragmentapp\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\AndroidDev\\pr3\\simplefragmentapp\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1,3",
                         "startColumns": "4,4",
@@ -361,25 +380,6 @@
                         "endLines": "250,251,517,710,711,725,726,1161,1162,1270,1271,1272,1273,1274,1275,1276,2192,2193,2194,2195,2196,2197,2198,2199,2200,2201,2202,2203,2204,2205,2206,2217,2218,2219,2220,2221,2222,2223,2224,2225,2226,2227,2228,2229,2230,2231,2232,2233,2234,2235,2236,2237,2238,2239,2240,2241,2242,2243,2244,2245,2246,2247,2248,2249,2250,2251,2261,2262,2292,2293,2294,2295,2296,2297,2298,2299,2300,2301,2302,2303,2304,2305,2306,2307,2308,2316,2405,2445,2446,2447,2448,2449,2450,2451,2599,6887,6891,6892,6896,6897,8337,8338,11566,11962,12851,12872,12880,12928,12934",
                         "endColumns": "63,56,59,71,87,64,65,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,55,57,60,62,56,50,57,49,60,56,65,33,34,34,69,66,71,68,68,73,71,87,70,116,12,109,12,128,71,66,24,24,24,24,24,24,24",
                         "endOffsets": "12978,13035,27079,37388,37476,38543,38609,68896,68959,76216,76284,76356,76426,76487,76561,76634,148210,148271,148333,148397,148459,148520,148588,148688,148748,148814,148887,148956,149013,149065,149127,149929,150005,150070,150129,150188,150248,150308,150368,150428,150488,150548,150608,150668,150728,150788,150847,150907,150967,151027,151087,151147,151207,151267,151327,151387,151447,151506,151566,151626,151685,151744,151803,151862,151921,151980,152464,152499,154130,154193,154248,154306,154362,154420,154481,154544,154601,154652,154710,154760,154821,154878,154944,154978,155013,155395,161084,164525,164597,164666,164735,164809,164881,164969,184968,493706,493907,494017,494218,494347,597229,597296,779647,793723,829648,830313,830561,831787,831954"
-                    }
-                },
-                {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson3\\simplefragmentapp\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,322",
-                        "endLines": "5,7",
-                        "endColumns": "12,62",
-                        "endOffsets": "316,380"
-                    },
-                    "to": {
-                        "startLines": "2937,7415",
-                        "startColumns": "4,4",
-                        "startOffsets": "206744,526705",
-                        "endLines": "2940,7415",
-                        "endColumns": "12,61",
-                        "endOffsets": "206854,526762"
                     }
                 },
                 {

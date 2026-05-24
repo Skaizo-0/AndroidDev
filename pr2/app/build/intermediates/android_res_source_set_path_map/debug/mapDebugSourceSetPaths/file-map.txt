@@ -30,10 +30,10 @@ ru.mirea.mvolobueva.lesson2.app-lifecycle-viewmodel-savedstate-2.6.2-28 C:\Users
 ru.mirea.mvolobueva.lesson2.app-lifecycle-runtime-2.6.2-29 C:\Users\Admin\.gradle\caches\9.2.1\transforms\f066f56cbb71c6674359430c10764e2a\workspace\transformed\lifecycle-runtime-2.6.2\res
 ru.mirea.mvolobueva.lesson2.app-core-viewtree-1.0.0-30 C:\Users\Admin\.gradle\caches\9.2.1\transforms\f17460eeef961df3ac412d313325c4bf\workspace\transformed\core-viewtree-1.0.0\res
 ru.mirea.mvolobueva.lesson2.app-savedstate-1.2.1-31 C:\Users\Admin\.gradle\caches\9.2.1\transforms\fe03dc21692b7e12ca0bdc7d41d3242d\workspace\transformed\savedstate-1.2.1\res
-ru.mirea.mvolobueva.lesson2.app-pngs-32 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\app\build\generated\res\pngs\debug
-ru.mirea.mvolobueva.lesson2.app-updated_navigation_xml-33 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\app\build\generated\updated_navigation_xml\debug
-ru.mirea.mvolobueva.lesson2.app-packageDebugResources-34 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ru.mirea.mvolobueva.lesson2.app-packageDebugResources-35 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ru.mirea.mvolobueva.lesson2.app-debug-36 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\app\build\intermediates\merged_res\debug\mergeDebugResources
-ru.mirea.mvolobueva.lesson2.app-debug-37 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\app\src\debug\res
-ru.mirea.mvolobueva.lesson2.app-main-38 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\app\src\main\res
+ru.mirea.mvolobueva.lesson2.app-pngs-32 D:\AndroidDev\pr2\app\build\generated\res\pngs\debug
+ru.mirea.mvolobueva.lesson2.app-updated_navigation_xml-33 D:\AndroidDev\pr2\app\build\generated\updated_navigation_xml\debug
+ru.mirea.mvolobueva.lesson2.app-packageDebugResources-34 D:\AndroidDev\pr2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.mvolobueva.lesson2.app-packageDebugResources-35 D:\AndroidDev\pr2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.mvolobueva.lesson2.app-debug-36 D:\AndroidDev\pr2\app\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.mvolobueva.lesson2.app-debug-37 D:\AndroidDev\pr2\app\src\debug\res
+ru.mirea.mvolobueva.lesson2.app-main-38 D:\AndroidDev\pr2\app\src\main\res

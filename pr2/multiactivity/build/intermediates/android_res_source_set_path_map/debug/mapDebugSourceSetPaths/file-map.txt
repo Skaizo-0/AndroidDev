@@ -30,10 +30,10 @@ ru.mirea.mvolobueva.multiactivity-lifecycle-viewmodel-savedstate-2.6.2-28 C:\Use
 ru.mirea.mvolobueva.multiactivity-lifecycle-runtime-2.6.2-29 C:\Users\Admin\.gradle\caches\9.2.1\transforms\f066f56cbb71c6674359430c10764e2a\workspace\transformed\lifecycle-runtime-2.6.2\res
 ru.mirea.mvolobueva.multiactivity-core-viewtree-1.0.0-30 C:\Users\Admin\.gradle\caches\9.2.1\transforms\f17460eeef961df3ac412d313325c4bf\workspace\transformed\core-viewtree-1.0.0\res
 ru.mirea.mvolobueva.multiactivity-savedstate-1.2.1-31 C:\Users\Admin\.gradle\caches\9.2.1\transforms\fe03dc21692b7e12ca0bdc7d41d3242d\workspace\transformed\savedstate-1.2.1\res
-ru.mirea.mvolobueva.multiactivity-pngs-32 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\multiactivity\build\generated\res\pngs\debug
-ru.mirea.mvolobueva.multiactivity-updated_navigation_xml-33 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\multiactivity\build\generated\updated_navigation_xml\debug
-ru.mirea.mvolobueva.multiactivity-packageDebugResources-34 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\multiactivity\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ru.mirea.mvolobueva.multiactivity-packageDebugResources-35 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\multiactivity\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ru.mirea.mvolobueva.multiactivity-debug-36 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\multiactivity\build\intermediates\merged_res\debug\mergeDebugResources
-ru.mirea.mvolobueva.multiactivity-debug-37 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\multiactivity\src\debug\res
-ru.mirea.mvolobueva.multiactivity-main-38 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson2\multiactivity\src\main\res
+ru.mirea.mvolobueva.multiactivity-pngs-32 D:\AndroidDev\pr2\multiactivity\build\generated\res\pngs\debug
+ru.mirea.mvolobueva.multiactivity-updated_navigation_xml-33 D:\AndroidDev\pr2\multiactivity\build\generated\updated_navigation_xml\debug
+ru.mirea.mvolobueva.multiactivity-packageDebugResources-34 D:\AndroidDev\pr2\multiactivity\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.mvolobueva.multiactivity-packageDebugResources-35 D:\AndroidDev\pr2\multiactivity\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.mvolobueva.multiactivity-debug-36 D:\AndroidDev\pr2\multiactivity\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.mvolobueva.multiactivity-debug-37 D:\AndroidDev\pr2\multiactivity\src\debug\res
+ru.mirea.mvolobueva.multiactivity-main-38 D:\AndroidDev\pr2\multiactivity\src\main\res

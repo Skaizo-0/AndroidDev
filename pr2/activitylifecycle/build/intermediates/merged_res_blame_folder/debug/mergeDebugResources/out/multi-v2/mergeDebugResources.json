@@ -1331,42 +1331,6 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\activitylifecycle\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,322",
-                        "endLines": "5,7",
-                        "endColumns": "12,62",
-                        "endOffsets": "316,380"
-                    },
-                    "to": {
-                        "startLines": "2936,7414",
-                        "startColumns": "4,4",
-                        "startOffsets": "206674,526635",
-                        "endLines": "2939,7414",
-                        "endColumns": "12,61",
-                        "endOffsets": "206784,526692"
-                    }
-                },
-                {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\activitylifecycle\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,41",
-                        "endOffsets": "92,134"
-                    },
-                    "to": {
-                        "startLines": "716,1183",
-                        "startColumns": "4,4",
-                        "startOffsets": "37800,70370",
-                        "endColumns": "41,41",
-                        "endOffsets": "37837,70407"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\93edfe0c26e92148f3d00f725a7ae5ed\\workspace\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -1381,6 +1345,23 @@
                         "startOffsets": "163275",
                         "endColumns": "82",
                         "endOffsets": "163353"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidDev\\pr2\\activitylifecycle\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "54",
+                        "endOffsets": "66"
+                    },
+                    "to": {
+                        "startLines": "2438",
+                        "startColumns": "4",
+                        "startOffsets": "163358",
+                        "endColumns": "54",
+                        "endOffsets": "163408"
                     }
                 },
                 {
@@ -1530,6 +1511,25 @@
                     }
                 },
                 {
+                    "source": "D:\\AndroidDev\\pr2\\activitylifecycle\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,322",
+                        "endLines": "5,7",
+                        "endColumns": "12,62",
+                        "endOffsets": "316,380"
+                    },
+                    "to": {
+                        "startLines": "2936,7414",
+                        "startColumns": "4,4",
+                        "startOffsets": "206674,526635",
+                        "endLines": "2939,7414",
+                        "endColumns": "12,61",
+                        "endOffsets": "206784,526692"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\9b845aaa0baca9143007397d28342b3e\\workspace\\transformed\\activity-1.12.4\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -1544,23 +1544,6 @@
                         "startOffsets": "153650,156091",
                         "endColumns": "41,59",
                         "endOffsets": "153687,156146"
-                    }
-                },
-                {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\activitylifecycle\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "54",
-                        "endOffsets": "66"
-                    },
-                    "to": {
-                        "startLines": "2438",
-                        "startColumns": "4",
-                        "startOffsets": "163358",
-                        "endColumns": "54",
-                        "endOffsets": "163408"
                     }
                 },
                 {
@@ -1599,6 +1582,23 @@
                         "endLines": "10702,10708,10718,14531,14535",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "749803,749981,750265,890027,890154"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidDev\\pr2\\activitylifecycle\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,41",
+                        "endOffsets": "92,134"
+                    },
+                    "to": {
+                        "startLines": "716,1183",
+                        "startColumns": "4,4",
+                        "startOffsets": "37800,70370",
+                        "endColumns": "41,41",
+                        "endOffsets": "37837,70407"
                     }
                 }
             ]
@@ -4290,7 +4290,7 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\activitylifecycle\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\AndroidDev\\pr2\\activitylifecycle\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

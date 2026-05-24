@@ -25,10 +25,10 @@ ru.mirea.mvolobueva.controllesson1-drawerlayout-1.1.1-23 C:\Users\Admin\.gradle\
 ru.mirea.mvolobueva.controllesson1-lifecycle-viewmodel-savedstate-2.6.1-24 C:\Users\Admin\.gradle\caches\9.2.1\transforms\e7968f081edfb1ef2885bfe188e1f15a\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
 ru.mirea.mvolobueva.controllesson1-material-1.10.0-25 C:\Users\Admin\.gradle\caches\9.2.1\transforms\fabfb841e421118fb1d5d6def61933b6\workspace\transformed\material-1.10.0\res
 ru.mirea.mvolobueva.controllesson1-savedstate-1.2.1-26 C:\Users\Admin\.gradle\caches\9.2.1\transforms\fe03dc21692b7e12ca0bdc7d41d3242d\workspace\transformed\savedstate-1.2.1\res
-ru.mirea.mvolobueva.controllesson1-pngs-27 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\controllesson1\build\generated\res\pngs\debug
-ru.mirea.mvolobueva.controllesson1-updated_navigation_xml-28 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\controllesson1\build\generated\updated_navigation_xml\debug
-ru.mirea.mvolobueva.controllesson1-packageDebugResources-29 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\controllesson1\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ru.mirea.mvolobueva.controllesson1-packageDebugResources-30 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\controllesson1\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ru.mirea.mvolobueva.controllesson1-debug-31 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\controllesson1\build\intermediates\merged_res\debug\mergeDebugResources
-ru.mirea.mvolobueva.controllesson1-debug-32 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\controllesson1\src\debug\res
-ru.mirea.mvolobueva.controllesson1-main-33 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\controllesson1\src\main\res
+ru.mirea.mvolobueva.controllesson1-pngs-27 D:\AndroidDev\pr1\controllesson1\build\generated\res\pngs\debug
+ru.mirea.mvolobueva.controllesson1-updated_navigation_xml-28 D:\AndroidDev\pr1\controllesson1\build\generated\updated_navigation_xml\debug
+ru.mirea.mvolobueva.controllesson1-packageDebugResources-29 D:\AndroidDev\pr1\controllesson1\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.mvolobueva.controllesson1-packageDebugResources-30 D:\AndroidDev\pr1\controllesson1\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.mvolobueva.controllesson1-debug-31 D:\AndroidDev\pr1\controllesson1\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.mvolobueva.controllesson1-debug-32 D:\AndroidDev\pr1\controllesson1\src\debug\res
+ru.mirea.mvolobueva.controllesson1-main-33 D:\AndroidDev\pr1\controllesson1\src\main\res

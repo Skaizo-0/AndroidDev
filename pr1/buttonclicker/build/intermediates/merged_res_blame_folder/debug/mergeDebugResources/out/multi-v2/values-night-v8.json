@@ -4,7 +4,7 @@
             "outputFile": "ru.mirea.mvolobueva.buttonclicker-mergeDebugResources-28:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\buttonclicker\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\AndroidDev\\pr1\\buttonclicker\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

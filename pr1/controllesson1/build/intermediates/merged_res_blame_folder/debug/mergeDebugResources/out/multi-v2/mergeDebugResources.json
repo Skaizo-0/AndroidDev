@@ -348,25 +348,6 @@
             "outputFile": "ru.mirea.mvolobueva.controllesson1-debug-30:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\controllesson1\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "314"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "165"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\25d6bd6e73f59721ca4a105bd13fda17\\workspace\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -398,6 +379,25 @@
                         "startOffsets": "802,877,988,1077,1178,1285,1392,1491,1598,1701,1789,1913,2015,2117,2233,2335,2449,2577,2693,2815,2951,3071,3205,3325,3437,3652,3769,3893,4023,4145,4283,4417,4533",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "872,983,1072,1173,1280,1387,1486,1593,1696,1784,1908,2010,2112,2228,2330,2444,2572,2688,2810,2946,3066,3200,3320,3432,3558,3764,3888,4018,4140,4278,4412,4528,4648"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidDev\\pr1\\controllesson1\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "314"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "165"
                     }
                 }
             ]
@@ -1326,7 +1326,7 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\controllesson1\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\AndroidDev\\pr1\\controllesson1\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -1379,23 +1379,6 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\controllesson1\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "51",
-                        "endOffsets": "63"
-                    },
-                    "to": {
-                        "startLines": "1967",
-                        "startColumns": "4",
-                        "startOffsets": "130324",
-                        "endColumns": "51",
-                        "endOffsets": "130371"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\87e5dcaad33d4b9177bc057924c3f74e\\workspace\\transformed\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -1410,6 +1393,25 @@
                         "startOffsets": "119930,119970,121102,121326,121381,122877,122931,122983,123032,123093",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "119965,120012,121140,121376,121423,122926,122978,123027,123088,123138"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidDev\\pr1\\controllesson1\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,322",
+                        "endLines": "5,7",
+                        "endColumns": "12,62",
+                        "endOffsets": "316,380"
+                    },
+                    "to": {
+                        "startLines": "2466,6380",
+                        "startColumns": "4,4",
+                        "startOffsets": "173129,446250",
+                        "endLines": "2469,6380",
+                        "endColumns": "12,61",
+                        "endOffsets": "173239,446307"
                     }
                 },
                 {
@@ -1504,22 +1506,20 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson1\\controllesson1\\src\\main\\res\\values\\themes.xml",
+                    "source": "D:\\AndroidDev\\pr1\\controllesson1\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,322",
-                        "endLines": "5,7",
-                        "endColumns": "12,62",
-                        "endOffsets": "316,380"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
                     },
                     "to": {
-                        "startLines": "2466,6380",
-                        "startColumns": "4,4",
-                        "startOffsets": "173129,446250",
-                        "endLines": "2469,6380",
-                        "endColumns": "12,61",
-                        "endOffsets": "173239,446307"
+                        "startLines": "1967",
+                        "startColumns": "4",
+                        "startOffsets": "130324",
+                        "endColumns": "51",
+                        "endOffsets": "130371"
                     }
                 },
                 {

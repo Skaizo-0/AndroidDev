@@ -8,7 +8,6 @@ id btnBrowser
 id btnCall
 id btnMaps
 layout activity_main
-layout fragment_first
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

@@ -42,22 +42,20 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\multiactivity\\src\\main\\res\\values\\themes.xml",
+                    "source": "D:\\AndroidDev\\pr2\\multiactivity\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,322",
-                        "endLines": "5,7",
-                        "endColumns": "12,62",
-                        "endOffsets": "316,380"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "50",
+                        "endOffsets": "62"
                     },
                     "to": {
-                        "startLines": "2936,7414",
-                        "startColumns": "4,4",
-                        "startOffsets": "206670,526631",
-                        "endLines": "2939,7414",
-                        "endColumns": "12,61",
-                        "endOffsets": "206780,526688"
+                        "startLines": "2438",
+                        "startColumns": "4",
+                        "startOffsets": "163358",
+                        "endColumns": "50",
+                        "endOffsets": "163404"
                     }
                 },
                 {
@@ -77,23 +75,6 @@
                         "endLines": "555,1330,1331,1332,1340,1341,1342,2260,14252",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "28685,80145,80193,80249,80935,81011,81083,152429,880426"
-                    }
-                },
-                {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\multiactivity\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,41",
-                        "endOffsets": "92,134"
-                    },
-                    "to": {
-                        "startLines": "716,1183",
-                        "startColumns": "4,4",
-                        "startOffsets": "37800,70370",
-                        "endColumns": "41,41",
-                        "endOffsets": "37837,70407"
                     }
                 },
                 {
@@ -366,6 +347,25 @@
                     }
                 },
                 {
+                    "source": "D:\\AndroidDev\\pr2\\multiactivity\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,322",
+                        "endLines": "5,7",
+                        "endColumns": "12,62",
+                        "endOffsets": "316,380"
+                    },
+                    "to": {
+                        "startLines": "2936,7414",
+                        "startColumns": "4,4",
+                        "startOffsets": "206670,526631",
+                        "endLines": "2939,7414",
+                        "endColumns": "12,61",
+                        "endOffsets": "206780,526688"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\49d99c4253e55dc7ce4ee25512f9a701\\workspace\\transformed\\appcompat-resources-1.7.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -385,20 +385,20 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson2\\multiactivity\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\AndroidDev\\pr2\\multiactivity\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "50",
-                        "endOffsets": "62"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,41",
+                        "endOffsets": "92,134"
                     },
                     "to": {
-                        "startLines": "2438",
-                        "startColumns": "4",
-                        "startOffsets": "163358",
-                        "endColumns": "50",
-                        "endOffsets": "163404"
+                        "startLines": "716,1183",
+                        "startColumns": "4,4",
+                        "startOffsets": "37800,70370",
+                        "endColumns": "41,41",
+                        "endOffsets": "37837,70407"
                     }
                 }
             ]

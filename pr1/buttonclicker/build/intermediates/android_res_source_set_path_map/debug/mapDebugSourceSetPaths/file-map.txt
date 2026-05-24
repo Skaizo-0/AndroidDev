@@ -25,10 +25,10 @@ ru.mirea.mvolobueva.buttonclicker-drawerlayout-1.1.1-23 C:\Users\Admin\.gradle\c
 ru.mirea.mvolobueva.buttonclicker-lifecycle-viewmodel-savedstate-2.6.1-24 C:\Users\Admin\.gradle\caches\9.2.1\transforms\e7968f081edfb1ef2885bfe188e1f15a\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
 ru.mirea.mvolobueva.buttonclicker-material-1.10.0-25 C:\Users\Admin\.gradle\caches\9.2.1\transforms\fabfb841e421118fb1d5d6def61933b6\workspace\transformed\material-1.10.0\res
 ru.mirea.mvolobueva.buttonclicker-savedstate-1.2.1-26 C:\Users\Admin\.gradle\caches\9.2.1\transforms\fe03dc21692b7e12ca0bdc7d41d3242d\workspace\transformed\savedstate-1.2.1\res
-ru.mirea.mvolobueva.buttonclicker-pngs-27 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\buttonclicker\build\generated\res\pngs\debug
-ru.mirea.mvolobueva.buttonclicker-updated_navigation_xml-28 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\buttonclicker\build\generated\updated_navigation_xml\debug
-ru.mirea.mvolobueva.buttonclicker-packageDebugResources-29 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\buttonclicker\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ru.mirea.mvolobueva.buttonclicker-packageDebugResources-30 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\buttonclicker\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ru.mirea.mvolobueva.buttonclicker-debug-31 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\buttonclicker\build\intermediates\merged_res\debug\mergeDebugResources
-ru.mirea.mvolobueva.buttonclicker-debug-32 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\buttonclicker\src\debug\res
-ru.mirea.mvolobueva.buttonclicker-main-33 D:\MOBILKI_PRAKT\MobileDevelopment-main\Lesson1\buttonclicker\src\main\res
+ru.mirea.mvolobueva.buttonclicker-pngs-27 D:\AndroidDev\pr1\buttonclicker\build\generated\res\pngs\debug
+ru.mirea.mvolobueva.buttonclicker-updated_navigation_xml-28 D:\AndroidDev\pr1\buttonclicker\build\generated\updated_navigation_xml\debug
+ru.mirea.mvolobueva.buttonclicker-packageDebugResources-29 D:\AndroidDev\pr1\buttonclicker\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.mvolobueva.buttonclicker-packageDebugResources-30 D:\AndroidDev\pr1\buttonclicker\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.mvolobueva.buttonclicker-debug-31 D:\AndroidDev\pr1\buttonclicker\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.mvolobueva.buttonclicker-debug-32 D:\AndroidDev\pr1\buttonclicker\src\debug\res
+ru.mirea.mvolobueva.buttonclicker-main-33 D:\AndroidDev\pr1\buttonclicker\src\main\res

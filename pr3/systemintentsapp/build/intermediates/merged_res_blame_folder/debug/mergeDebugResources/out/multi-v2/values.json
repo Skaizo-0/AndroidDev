@@ -4,20 +4,20 @@
             "outputFile": "ru.mirea.mvolobueva.systemintentsapp-mergeDebugResources-33:/values/values.xml",
             "map": [
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson3\\systemintentsapp\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\AndroidDev\\pr3\\systemintentsapp\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "1,3",
+                        "startLines": "2,3",
                         "startColumns": "4,4",
-                        "startOffsets": "16,128",
-                        "endColumns": "53,69",
-                        "endOffsets": "65,193"
+                        "startOffsets": "55,97",
+                        "endColumns": "41,41",
+                        "endOffsets": "92,134"
                     },
                     "to": {
-                        "startLines": "2438,2463",
+                        "startLines": "716,1183",
                         "startColumns": "4,4",
-                        "startOffsets": "163358,165978",
-                        "endColumns": "53,69",
-                        "endOffsets": "163407,166043"
+                        "startOffsets": "37800,70370",
+                        "endColumns": "41,41",
+                        "endOffsets": "37837,70407"
                     }
                 },
                 {
@@ -239,6 +239,23 @@
                     }
                 },
                 {
+                    "source": "D:\\AndroidDev\\pr3\\systemintentsapp\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,128",
+                        "endColumns": "53,69",
+                        "endOffsets": "65,193"
+                    },
+                    "to": {
+                        "startLines": "2438,2463",
+                        "startColumns": "4,4",
+                        "startOffsets": "163358,165978",
+                        "endColumns": "53,69",
+                        "endOffsets": "163407,166043"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\7b55125f137bb5e860efd39bdfcd2950\\workspace\\transformed\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -277,23 +294,6 @@
                     }
                 },
                 {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson3\\systemintentsapp\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,41",
-                        "endOffsets": "92,134"
-                    },
-                    "to": {
-                        "startLines": "716,1183",
-                        "startColumns": "4,4",
-                        "startOffsets": "37800,70370",
-                        "endColumns": "41,41",
-                        "endOffsets": "37837,70407"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\9.2.1\\transforms\\f066f56cbb71c6674359430c10764e2a\\workspace\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -308,6 +308,25 @@
                         "startOffsets": "155987",
                         "endColumns": "42",
                         "endOffsets": "156025"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidDev\\pr3\\systemintentsapp\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,322",
+                        "endLines": "5,7",
+                        "endColumns": "12,62",
+                        "endOffsets": "316,380"
+                    },
+                    "to": {
+                        "startLines": "2937,7415",
+                        "startColumns": "4,4",
+                        "startOffsets": "206743,526704",
+                        "endLines": "2940,7415",
+                        "endColumns": "12,61",
+                        "endOffsets": "206853,526761"
                     }
                 },
                 {
@@ -380,25 +399,6 @@
                         "endLines": "10703,10709,10719,14532,14536",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "749872,750050,750334,890096,890223"
-                    }
-                },
-                {
-                    "source": "D:\\MOBILKI_PRAKT\\MobileDevelopment-main\\Lesson3\\systemintentsapp\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,322",
-                        "endLines": "5,7",
-                        "endColumns": "12,62",
-                        "endOffsets": "316,380"
-                    },
-                    "to": {
-                        "startLines": "2937,7415",
-                        "startColumns": "4,4",
-                        "startOffsets": "206743,526704",
-                        "endLines": "2940,7415",
-                        "endColumns": "12,61",
-                        "endOffsets": "206853,526761"
                     }
                 }
             ]
